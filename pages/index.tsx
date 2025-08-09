@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Gallery Photos</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -59,11 +59,12 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              2022 Event Photos
+              会者定离   · 一期一祈
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Our incredible Next.js community got together in San Francisco for
-              our first ever in-person conference!
+              万物难为有&nbsp; 无常似尾花
+              <br />
+              空蝉如此世 &nbsp; 幻灭若朝霞
             </p>
            
 {/*               <a
@@ -104,8 +105,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Thank you to{" "}
-        <a
+        {/* Thank you to{" "} */}
+        {/* <a
           href="https://edelsonphotography.com/"
           target="_blank"
           className="font-semibold hover:text-white"
@@ -130,8 +131,38 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           rel="noreferrer"
         >
           Gary Sexton
-        </a>{" "}
-        for the pictures.
+        </a>
+        {" "} */}
+        <a
+          href="https://wishing.icu/"
+          target="_blank"
+          className="font-semibold hover:text-white"
+          rel="noreferrer"
+          style={{ color: "blue" }}
+        >
+          画廊日志
+        </a>
+   &nbsp;·&nbsp;
+          <a
+          href="https://sakurafly.com"
+          target="_blank"
+          className="font-semibold hover:text-white"
+          rel="noreferrer"
+           style={{ color: "blue" }}
+        >
+          博客随笔
+        </a>
+           &nbsp;·&nbsp;
+         <a
+          href="http://daohang.sakurafly.com"
+          target="_blank"
+          className="font-semibold hover:text-white"
+          rel="noreferrer"
+           style={{ color: "blue" }}
+        >
+          网址导航
+        </a>
+        
       </footer>
     </>
   );
