@@ -5,7 +5,7 @@ module.exports = {
         protocol: "https",
         hostname: "res.cloudinary.com",
         port: "",
-        pathname: "/sakurafly/**",
+        pathname: "/dsddkwiv5/**",
         search: "",
       },
     ],
